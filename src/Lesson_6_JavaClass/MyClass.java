@@ -8,7 +8,7 @@ public class MyClass {
         square1.displayPosition();
         square1.resize();
         Triangle triangle1=new Triangle(4, 0, 1,1,9);
-        if (triangle1.isTriangleReal(1,1,9)) {
+        if (triangle1.isTriangleReal()) {
             triangle1.getSquare();
             triangle1.getPerimeter();
             triangle1.displayPosition();

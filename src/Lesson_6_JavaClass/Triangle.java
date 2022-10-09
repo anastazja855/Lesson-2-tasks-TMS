@@ -19,7 +19,7 @@ public class Triangle extends Class_Shape implements Resize {
 
     }
 
-    public boolean isTriangleReal (float side1_lenght, float side2_lengt, float side3_length) {
+    public boolean isTriangleReal () {
         if (side1_lenght + side2_lengt >= side3_length && side1_lenght + side3_length >= side2_lengt && side2_lengt + side3_length >= side1_lenght) {
             System.out.println("Triangle is real");
             triangleReal = true;
