@@ -26,7 +26,7 @@ public class Triangle extends Class_Shape implements Resize {
 
             //this.isTriangleReal = isTriangleReal;
         } else {
-            System.out.println("Triangle is not real");
+            System.out.println();
             triangleReal = false;
             //this.isTriangleReal = isTriangleReal;
         }
