@@ -1,5 +1,5 @@
 fun main (){
-    val options = arrayOf("Rock", "Paper", "Scissors")
+    val options = arrayOf("Rock", "Paper", "Scissors" )
     val gameChoise = getGameChoice(options)
 
     val userChoise = getUserCoise (options)
@@ -19,7 +19,6 @@ fun getUserCoise (options: Array<String>):String{
         for (item in options) print(" $item")
         println(".")
         val userInput = readLine()
-        userInput = userInput.capitalize()
         if (userInput != null && userInput in options){
             isValidChoise = true
             userChoise = userInput
